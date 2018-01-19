@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.appendFile('C:/Users/Oshani Weerakoon/Documents/Node-W3/append_file.txt', 'Hello content!', function (err) {
+fs.appendFile('C:/Users/Oshani Weerakoon/Documents/Node/Node-W3/append_file.txt', 'Hello content!', function (err) {
   if (err) throw err;
   console.log('Saved!');
 });

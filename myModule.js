@@ -1,5 +1,5 @@
 var http = require('http');
-var dt = require('C:/Users/Oshani Weerakoon/Documents/Node-W3/firstModule');
+var dt = require('C:/Users/Oshani Weerakoon/Documents/Node/Node-W3/firstModule');
 //absolute path, can require absolute within npm_module folder
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
